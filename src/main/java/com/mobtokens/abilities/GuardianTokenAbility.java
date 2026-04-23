@@ -6,6 +6,7 @@ import org.bukkit.entity.Arrow;
 import org.bukkit.entity.AreaEffectCloud;
 import org.bukkit.util.Vector;
 
+// Fixed: Removed non-existent Laser import, using Arrow + AreaEffectCloud for cinematic beam
 public class GuardianTokenAbility implements TokenAbility {
 
     @Override
