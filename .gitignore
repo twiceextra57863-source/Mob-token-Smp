@@ -1,17 +1,11 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
-target/
-
 # Dependencies
+target/
+.m2/
 .gradle/
 
-# Logs and temp files
+# Logs
 *.log
-*.tmp
 
 # Environment
 .env
@@ -21,4 +15,16 @@ target/
 # Editors
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
 ```
