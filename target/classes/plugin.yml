@@ -1,0 +1,16 @@
+plugins:
+  - name: MobTokens
+    version: '1.0.0'
+    main: com.mobtokens.MobTokensPlugin
+    api-version: '1.21'
+    authors: [MobTokensDev]
+    description: A plugin with 17 unique mob token abilities with cinematic effects
+    commands:
+      mobtoken:
+        description: Give mob tokens to players
+        usage: /mobtoken give <player> <token_type> [amount]
+        permission: mobtokens.admin
+    permissions:
+      mobtokens.admin:
+        description: Admin permission to use mobtoken command
+        default: op
